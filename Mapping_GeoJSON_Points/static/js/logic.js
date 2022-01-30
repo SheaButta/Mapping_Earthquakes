@@ -7,9 +7,14 @@ console.log("working");
 
 
 // Create the map object with center at the San Francisco airport.
-let map = L.map('mapid').setView([37.5, -122.5], 10);
+//let map = L.map('mapid').setView([37.5, -122.5], 10);
+
+// Create the map object with center and zoom level.
+let map = L.map('mapid').setView([30, 30], 2);
+
 
 // Add GeoJSON data.
+/*
 let sanFranAirport =
 {"type":"FeatureCollection","features":[{
     "type":"Feature",
@@ -28,7 +33,7 @@ let sanFranAirport =
             "type":"Point",
             "coordinates":[-122.375,37.61899948120117]}}
 ]};
-
+*/
 // Grabbing our GeoJSON data.  USING "pointToLayer FUNCTION"
 /*
 L.geoJSON(sanFranAirport, {
@@ -45,6 +50,7 @@ L.geoJSON(sanFranAirport, {
 */
 
 // Grabbing our GeoJSON data.  USING "onEachFeature FUNCTION"
+/*
 L.geoJSON(sanFranAirport, {
     onEachFeature: function(feature, layer) {
         console.log(layer);
@@ -52,7 +58,7 @@ L.geoJSON(sanFranAirport, {
             "<h3>Airport name: " + feature.properties.name + "</h3>");                                   // SKILL DRILL
      }
 }).addTo(map);
-
+*/
 
 // We create the tile layer that will be the background of our map.
 let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -62,10 +68,30 @@ let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/t
 //let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/navigation-night-v1/tiles/{z}/{x}/{y}?access_token={accessToken}', {
 
         attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
-                maxZoom: 18,
-            accessToken: API_KEY
-});
-        
-        
-// Then we add our 'graymap' tile layer to the map.
+        maxZoom: 18,
+        accessToken: API_KEY
+})
+
+// Then we add our 'graymap' tile layer to the map.  READING JSON FILE REQUIRES US TO OPEN MAP FIRST AND THEN LOAD DATA FROM JSON FILE
 streets.addTo(map);
+
+
+// Accessing the airport GeoJSON URL
+let airportData = "https://raw.githubusercontent.com/SheaButta/Mapping_Earthquakes/main/majorAirports.json";
+
+// Grabbing our GeoJSON data.
+d3.json(airportData).then(function(data) {
+    console.log(data);
+  // Creating a GeoJSON layer with the retrieved data.
+  L.geoJSON(data, {
+    onEachFeature: function(feature, layer) {
+        console.log(feature.properties.faa);
+        layer.bindPopup("<h3> Airport code: " + feature.properties.faa + "</h3>"+ "<hr></hr>" +         // SKILL DRILL
+            "<h3>Airport name: " + feature.properties.name + "</h3>");                                  // SKILL DRILL
+        }                                                                                              
+    }).addTo(map);
+})
+
+
+// Then we add our 'graymap' tile layer to the map.
+//streets.addTo(map);
