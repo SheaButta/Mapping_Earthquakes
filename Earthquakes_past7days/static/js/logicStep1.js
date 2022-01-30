@@ -39,7 +39,7 @@ let torontoHoods = "https://raw.githubusercontent.com/SheaButta/Mapping_Earthqua
 
 // Create a style for the lines.
 let myStyle = {
-    color: "blue",  // SKILL DRILL
+    color: "orange",  // SKILL DRILL
     fillColor: "yellow",    // SKILL DRILL
     weight: 1   // SKILL DRILL
 }
@@ -48,6 +48,7 @@ let myStyle = {
 // Retrieve the earthquake GeoJSON data.
 d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson").then(function(data) {
   // Creating a GeoJSON layer with the retrieved data.
+  style: myStyle
   L.geoJSON(data).addTo(map);
 });
 
