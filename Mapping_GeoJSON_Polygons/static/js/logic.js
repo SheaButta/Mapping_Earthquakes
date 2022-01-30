@@ -1,5 +1,5 @@
 /* =======================================================================
-    Note: Creates line coordinates from Point A to Point B (LAX TO SFO)
+    Note: GeoJSON files to display on a polygon map
    ======================================================================= */
 console.log("working");
 
