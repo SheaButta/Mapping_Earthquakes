@@ -6,7 +6,7 @@ The purpose of this project is to assist my client with producing map visualizat
 My final sprint will include adding three (3) specific visualization which are identified below.  As always, my analysis followed the data analysis principles of (1) Determine the number of rows and columns; (2) Data types used; and (3) Is the data readable?
 
 __Client Expected Results:__
-- Visual a map with __no__ overlay
+- Visualize a map with __no__ overlay
 - Visualize initial page load
 - Visualize Techtronic Plates overlay
 - Visualize Techtronic and Earthquakes overlays with magnitudes displayed by legend
@@ -29,7 +29,7 @@ The resouces used for this JavaScript application included;
 ## Results
 All sprints were completed as scheduled and I delivered on all client expectations/results. The below images will visualize one overlay at a time until you finally see all map overlays displayed.
 
-__Deliverable 1:__ Visual a map with __no__ overlay
+__Deliverable 1:__ Visualize a map with __no__ overlay
 
 ![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/NoOverlay.PNG)
 
@@ -58,6 +58,15 @@ __Deliverable 5:__ - Visualize Techtronic, Earthquakes and Major overlays with m
 My client is extremely pleased with the final sprint as we have proven the ability to read JSON and GeoJSON data and most importantly visualize the data using D3 (Data-Driven Documents) and the Leaflet JavaScript library.  One additional visualization that I performed was displaying a flight from LAX to JFK.  Along the way I also identified a stop at BWI.
 
 __Flight log:__
+
+I have developed a branch for testing mapping lines using a Polyline.  The below route display a flight from SFO to JFK with one stop to include BWI.  The below includes the coordinates for the flight.  One of the biggest tasks completed here was creating various branches to isolate test environments for Mapping Lines, Mapping GeoJSON Points, Mapping GeoJSON Polygons and Mapping GeoJSON Linestrings.
+
+    __Flight Coordinates__:
+    [37.6213, -122.3790], //SFO
+    [30.19444, -97.67000], //AUX
+    [39.177404, -76.668392], //BWI 
+    [43.678524, -79.6291291306445], //YYZ
+    [40.641766, -73.780968] //JFK
 
 ![](https://github.com/SheaButta/plotly_deployment/blob/main/static/images/DDL_Charts.PNG)
 
