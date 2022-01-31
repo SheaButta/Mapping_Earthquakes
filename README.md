@@ -11,6 +11,8 @@ __Client Expected Results:__
 - Visualize Techtronic Plates overlay
 - Visualize Techtronic and Earthquakes overlays with magnitudes displayed by legend
 - Visualize Techtronic, Earthquakes and Major overlays with magnitudes displayed by legend
+- Visualizae a Satellite Tyle
+- Visualizae a Dark Tyle
 
 
 
@@ -54,6 +56,13 @@ __Deliverable 5:__ - Visualize Techtronic, Earthquakes and Major overlays with m
 ![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/Techtronic_EQs_majorEQs.PNG)
 
 
+__Deliverable 5:__ - Visualizae a Dark Tyle
+
+![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/Techtronic_EQs_majorEQs.PNG)
+
+
+
+
 ## Summary
 My client is extremely pleased with the final sprint as we have proven the ability to read JSON and GeoJSON data and most importantly visualize the data using D3 (Data-Driven Documents) and the Leaflet JavaScript library.  
 
@@ -67,11 +76,13 @@ While testing and solidifying these visualization I was able to isoloate these t
 One of my final test beds displays a flight plan from SFO to JFK with one stop to include BWI.  I basically proved we can perform isolated tests without impacting their production environment to render a "proof-of-concept".
 
   __Flight Coordinates__:
-    - __SFO:__ [37.6213, -122.3790]
-    - __AUX:__ [30.19444, -97.67000]
-    - __BWI:__ [39.177404, -76.668392] 
-    - __YYZ:__ [43.678524, -79.6291291306445]
-    - __JFK:__ [40.641766, -73.780968]
+  
+  -__SFO:__ [37.6213, -122.3790]
+  -__AUX:__ [30.19444, -97.67000]
+  -__BWI:__ [39.177404, -76.668392] 
+  -__YYZ:__ [43.678524, -79.6291291306445]
+  -__JFK:__ [40.641766, -73.780968]
+  
 
 ![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/AirlineRoute.PNG)
 
