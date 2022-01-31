@@ -33,37 +33,37 @@ All sprints were completed as scheduled and I delivered on all client expectatio
 
 __Deliverable 1:__ Visualize a map with __no__ overlay
 
-![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/NoOverlay.PNG)
+![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/NoOverlay.PNG)
 
 
 __Deliverable 2:__ Visualize initial page load
 
-![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/InitialPageLoad.PNG)
+![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/InitialPageLoad.PNG)
 
 
 __Deliverable 3:__ Visualize Techtronic Plates overlay
 
-![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/TechtronicPlatesOverlay.PNG)
+![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/TechtronicPlatesOverlay.PNG)
 
 
 __Deliverable 4:__ Visualize Techtronic and Earthquakes overlays with magnitudes displayed by legend
 
-![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/Techtronic_EQs.PNG)
+![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/Techtronic_EQs.PNG)
 
 
 __Deliverable 5:__ - Visualize Techtronic, Earthquakes and Major overlays with magnitudes displayed by legend
 
-![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/Techtronic_EQs_majorEQs.PNG)
+![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/Techtronic_EQs_majorEQs.PNG)
 
 
 __Deliverable 6:__ - Visualizae a Satellite Tyle
 
-![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/Satellite_AllOverlays.PNG)
+![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/Satellite_AllOverlays.PNG)
 
 
 __Deliverable 7:__ - Visualizae a Dark Tyle
 
-![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/Dark_AllOverlays.PNG)
+![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/Dark_AllOverlays.PNG)
 
 
 ## Summary
@@ -87,7 +87,7 @@ One of my final test beds displays a flight plan from SFO to JFK with one stop t
   -__JFK:__ [40.641766, -73.780968]
   
 
-![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/AirlineRoute.PNG)
+![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/images/AirlineRoute.PNG)
 
 
 
