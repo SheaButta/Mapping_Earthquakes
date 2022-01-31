@@ -55,20 +55,25 @@ __Deliverable 5:__ - Visualize Techtronic, Earthquakes and Major overlays with m
 
 
 ## Summary
-My client is extremely pleased with the final sprint as we have proven the ability to read JSON and GeoJSON data and most importantly visualize the data using D3 (Data-Driven Documents) and the Leaflet JavaScript library.  One additional visualization that I performed was displaying a flight from LAX to JFK.  Along the way I also identified a stop at BWI.
+My client is extremely pleased with the final sprint as we have proven the ability to read JSON and GeoJSON data and most importantly visualize the data using D3 (Data-Driven Documents) and the Leaflet JavaScript library.  
 
-__Flight log:__
+While testing and solidifying these visualization I was able to isoloate these test beds using branches.  Some of the other test enviroments related to using maps included the following;
 
-I have developed a branch for testing mapping lines using a Polyline.  The below route display a flight from SFO to JFK with one stop to include BWI.  The below includes the coordinates for the flight.  One of the biggest tasks completed here was creating various branches to isolate test environments for Mapping Lines, Mapping GeoJSON Points, Mapping GeoJSON Polygons and Mapping GeoJSON Linestrings.
+    - Mapping Lines
+    - Mapping GeoJSON Points
+    - Mapping GeoJSON Polygons 
+    - Mapping GeoJSON Linestrings
 
-    __Flight Coordinates__:
+One of my final test beds displays a flight plan from SFO to JFK with one stop to include BWI.  I basically proved we can perform isolated tests without impacting their production environment to render a "proof-of-concept".
+
+  __Flight Coordinates__:
     [37.6213, -122.3790], //SFO
     [30.19444, -97.67000], //AUX
     [39.177404, -76.668392], //BWI 
     [43.678524, -79.6291291306445], //YYZ
     [40.641766, -73.780968] //JFK
 
-![](https://github.com/SheaButta/plotly_deployment/blob/main/static/images/DDL_Charts.PNG)
+![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/AirlineRoute.PNG)
 
 
 
