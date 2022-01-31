@@ -6,10 +6,12 @@ The purpose of this project is to assist my client with producing map visualizat
 My final sprint will include adding three (3) specific visualization which are identified below.  As always, my analysis followed the data analysis principles of (1) Determine the number of rows and columns; (2) Data types used; and (3) Is the data readable?
 
 __Client Expected Results:__
+- Visual a map with __no__ overlay
+- Visualize initial page load
 - Visualize Techtronic Plates overlay
-- Visualize Earthquakes overlay with magnitudes displayed by legend
-- Visualize Major Earthquakes overlay with magnitudes displayed by legend
-- Visualize all overlays with legend
+- Visualize Techtronic and Earthquakes overlays with magnitudes displayed by legend
+- Visualize Techtronic, Earthquakes and Major overlays with magnitudes displayed by legend
+
 
 
 ## Resources
@@ -25,34 +27,31 @@ The resouces used for this JavaScript application included;
 
 
 ## Results
-All sprints were completed as scheduled and I delivered on all client expectations/results.
+All sprints were completed as scheduled and I delivered on all client expectations/results. The below images will visualize one overlay at a time until you finally see all map overlays displayed.
 
-__Deliverable 1:__ Visualize Techtronic Plates overlay
+__Deliverable 1:__ Visual a map with __no__ overlay
 
-![](https://github.com/SheaButta/plotly_deployment/blob/main/static/images/Dashboard.PNG)
-
-
-__Deliverable 2:__ Visualize Earthquakes overlay with magnitudes displayed by legend
+![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/NoOverlay.PNG)
 
 
-__Visualization 1 - Visualize the top 10 bacterial species in an individual's navel:__
+__Deliverable 2:__ Visualize initial page load
 
-![](https://github.com/SheaButta/plotly_deployment/blob/main/static/images/BarChart.PNG)
-
-
-__Deliverable 3:__ - Visualize Major Earthquakes overlay with magnitudes displayed by legend
-
-![](https://github.com/SheaButta/plotly_deployment/blob/main/static/images/GuageChart.PNG)
+![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/InitialPageLoad.PNG)
 
 
-__Deliverable 4:__ - Visualize all overlays with legend
+__Deliverable 3:__ Visualize Techtronic Plates overlay
 
-![](https://github.com/SheaButta/plotly_deployment/blob/main/static/images/BubbleChart.PNG)
+![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/TechtronicPlatesOverlay.PNG)
 
 
-__- Site is Mobile Responsive:__
+__Deliverable 4:__ Visualize Techtronic and Earthquakes overlays with magnitudes displayed by legend
 
-![](https://github.com/SheaButta/plotly_deployment/blob/main/static/images/MobileResponsive.PNG)
+![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/Techtronic_EQs.PNG)
+
+
+__Deliverable 5:__ - Visualize Techtronic, Earthquakes and Major overlays with magnitudes displayed by legend
+
+![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/Techtronic_EQs_majorEQs.PNG)
 
 
 ## Summary
