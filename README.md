@@ -56,11 +56,14 @@ __Deliverable 5:__ - Visualize Techtronic, Earthquakes and Major overlays with m
 ![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/Techtronic_EQs_majorEQs.PNG)
 
 
-__Deliverable 5:__ - Visualizae a Dark Tyle
+__Deliverable 6:__ - Visualizae a Satellite Tyle
 
-![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/Techtronic_EQs_majorEQs.PNG)
+![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/Satellite_AllOverlays.PNG)
 
 
+__Deliverable 7:__ - Visualizae a Dark Tyle
+
+![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/Dark_AllOverlays.PNG)
 
 
 ## Summary
