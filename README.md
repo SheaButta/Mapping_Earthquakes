@@ -67,11 +67,11 @@ While testing and solidifying these visualization I was able to isoloate these t
 One of my final test beds displays a flight plan from SFO to JFK with one stop to include BWI.  I basically proved we can perform isolated tests without impacting their production environment to render a "proof-of-concept".
 
   __Flight Coordinates__:
-    [37.6213, -122.3790], //SFO
-    [30.19444, -97.67000], //AUX
-    [39.177404, -76.668392], //BWI 
-    [43.678524, -79.6291291306445], //YYZ
-    [40.641766, -73.780968] //JFK
+    - __SFO:__ [37.6213, -122.3790]
+    - __AUX:__ [30.19444, -97.67000]
+    - __BWI:__ [39.177404, -76.668392] 
+    - __YYZ:__ [43.678524, -79.6291291306445]
+    - __JFK:__ [40.641766, -73.780968]
 
 ![](https://github.com/SheaButta/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/AirlineRoute.PNG)
 
